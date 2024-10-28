@@ -1,3 +1,73 @@
+
+
+### Array Method Questions
+
+Given arrays:
+
+```javascript
+const numbers = [5, 12, 8, 130, 44];
+const fruits = ["apple", "banana", "cherry", "date", "elderberry"];
+const mixedArray = [1, [2, 3], [4, [5, 6]], 7];
+const ages = [3, 10, 18, 20, 33];
+const colors = ["red", "green", "blue", "yellow"];
+```
+
+#### Questions
+
+1. **Using `push()`**  
+   - Add `"fig"` to the end of the `fruits` array. What does the updated array look like?
+
+2. **Using `pop()`**  
+   - Remove the last item from the `fruits` array. What item was removed, and what does the array look like now?
+
+3. **Using `shift()` and `unshift()`**  
+   - Use `shift()` to remove the first item from the `colors` array. Then, add `"purple"` to the start using `unshift()`. What is the final array?
+
+4. **Using `map()`**  
+   - Create a new array by doubling each value in the `numbers` array.
+
+5. **Using `filter()`**  
+   - Create a new array from `numbers` that includes only values greater than 10.
+
+6. **Using `reduce()`**  
+   - Use `reduce()` on `numbers` to find the total sum of all elements.
+
+7. **Using `find()`**  
+   - Find the first number in the `ages` array that is greater than or equal to 18.
+
+8. **Using `findIndex()`**  
+   - Get the index of the first even number in the `numbers` array.
+
+9. **Using `includes()`**  
+   - Check if `"cherry"` is present in the `fruits` array.
+
+10. **Using `some()` and `every()`**  
+    - Use `some()` to check if there are any ages greater than 30 in the `ages` array.
+    - Use `every()` to check if all numbers in the `numbers` array are positive.
+
+11. **Using `sort()`**  
+    - Sort the `colors` array alphabetically. Then sort the `numbers` array in ascending order.
+
+12. **Using `splice()`**  
+    - Remove `"banana"` and `"cherry"` from the `fruits` array using `splice()`.
+
+13. **Using `concat()`**  
+    - Concatenate `fruits` and `colors` into a single array. What does the combined array look like?
+
+14. **Using `slice()`**  
+    - Extract the first two elements from `colors` without modifying the original array.
+
+15. **Using `flat()`**  
+    - Flatten `mixedArray` into a single-level array.
+
+16. **Using `forEach()`**  
+    - Log each element in the `fruits` array to the console.
+
+17. **Using `join()`**  
+    - Create a single string from the `colors` array, with each color separated by a hyphen (`-`).
+
+
+
 # Array Methods Practice
 
 This repository provides practice questions to help users become familiar with JavaScript array methods. The exercises are based on an array of user account objects, each representing a user with properties such as `id`, `name`, `email`, `age`, `balance`, and `isActive`.
